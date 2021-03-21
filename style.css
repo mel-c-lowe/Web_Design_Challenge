@@ -49,3 +49,12 @@
       height: 400px;
       width: 100px
   }
+
+  .fill_box{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: whitesmoke;
+    width: 600px;
+    height: 600px
+}
