@@ -37,15 +37,15 @@
   /* Base box testing on first */
 
   .right_box{
-      margin: 100px 100px 10px 0px;
+      margin: 100px 50px 10px 0px;
       background: whitesmoke;
       height: 600px;
-      width: 40%;
+      width: 300px;
   }
 
   .left_box{
-      margin: 100px 0px 10px 0px;
+      margin: 100px 0px 0px 0px;
       background: whitesmoke;
-      height: 600px;
-      width: 40%
+      height: 400px;
+      width: 100px
   }
