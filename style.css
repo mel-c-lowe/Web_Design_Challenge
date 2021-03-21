@@ -58,3 +58,36 @@
     width: 600px;
     height: 600px
 }
+
+.test_fill_box{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: whitesmoke;
+    width: 600px;
+    height: 600px
+}
+
+.main_link{
+    margin-top: 10px;
+    margin-left: 100px;
+    background: paleturquoise;
+    height: 80px;
+    width: 100px;
+}
+
+.comp_link{
+    margin-top: 10px;
+    margin-left: 10px;
+    background: palegoldenrod;
+    height: 80px;
+    width: 100px;
+}
+
+.data_link{
+    margin-top: 10px;
+    margin-left: 10px;
+    background: lightslategray;
+    height: 80px;
+    width: 100px;
+}
