@@ -1,9 +1,9 @@
 /* Set up some boxes to hold text */
 
-.display_box{
+.main_lat_box{
     margin-top: 100px;
     background: whitesmoke;
-    width: 800px;
+    width: 600px;
     height: 800px
 }
 
@@ -21,3 +21,31 @@
     height: 80px;
     color: tomato;
 }
+
+/* The sidebar menu */
+.sidenav {
+    height: 150px; 
+    width: 160px; /* Set the width of the sidebar */
+    background-color: lightblue;
+  }
+
+  .navtext{
+      margin-right: 20%;
+      margin-top: 20%;
+  }
+
+  /* Base box testing on first */
+
+  .right_box{
+      margin: 100px 100px 10px 0px;
+      background: whitesmoke;
+      height: 600px;
+      width: 40%;
+  }
+
+  .left_box{
+      margin: 100px 0px 10px 0px;
+      background: whitesmoke;
+      height: 600px;
+      width: 40%
+  }
