@@ -15,19 +15,45 @@
 
 <body style="background-color: lightgray">
 
+<!--Trying Bootstrap navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comparisons</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="first.html">First</a>
+            <a class="dropdown-item" href="second.html">Second</a>
+            <a class="dropdown-item" href="third.html">Third</a>
+            <a class="dropdown-item" href="fourth.html">Fourth</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="comparison.html">All Visualizations</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<!--Visualization and Analysis-->
     <div class="container">
         <div class="row">
-            <div class="col-md-5 right_box">
+            <div class="col-md-9 right_box">
                 <p>Right Box</p>
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="First Visualization" alt="First Visualization">
+                        <img src="../Provided/Resources/assets/images/Fig1.png" alt="First Visualization">
                     </div>
                 </div>
             
             </div>
           
-            <div class="col-md-5 left_box">
+            <div class="col-md-2 left_box">
                 <p>Left Box aka Nav Pad take 2</p>
                 <div class="row">
                     <div class="col-md-5">
