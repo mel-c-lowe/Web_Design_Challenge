@@ -65,6 +65,11 @@
       font-variant: small-caps;
   }
 
+  .img-thumbnail{
+      height: 100px;
+      width: 100px;
+  }
+
   .fill_box{
     margin-top: 100px;
     margin-left: 100px;
