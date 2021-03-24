@@ -1,65 +1,13 @@
 /* Set up some boxes to hold text */
 
-.main_lat_box{
-    margin-top: 100px;
-    background: whitesmoke;
-    width: 600px;
-    height: 800px
-}
-
-.title_box{
-    margin-top: 50px;
-    margin-left: 20px;
-    width; 800px
-    height: 200px;
-}
-
-.image_box{
-    margin-left: 20px;
-    margin-top: 100px;
-    width: 80px;
-    height: 80px;
-    color: tomato;
-}
-
-/* The sidebar menu */
-.sidenav {
-    margin-top: 10%;
-    padding-left: 5%;
-    height: 150px; 
-    width: 100px; 
-    background-color: lightblue;
-  }
-
   .paragraph{
-      margin-top: 75px;
-      margin-left: 10px;
-      width: 800px;
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 1000px;
       height: 400px
   }
 
-  .navtext{
-      margin-right: 20%;
-      margin-top: 20%;
-  }
-
-  /* Base box testing on first */
-
-  .right_box{
-      margin: 100px 50px 10px 0px;
-      /*background: whitesmoke;*/
-      height: 600px;
-      width: 300px;
-  }
-
-  .left_box{
-      margin: 100px 0px 0px 0px;
-      background: whitesmoke;
-      height: 400px;
-      width: 100px
-  }
-
-  .vis_title{
+  .title{
       margin-top: 50px;
       font-size: 20pt;
       font-variant: small-caps;
@@ -70,30 +18,20 @@
       width: 100px;
   }
 
-  .fill_box{
-    margin-top: 100px;
+.fill_box{
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
     background: whitesmoke;
-    width: 600px;
+    width: 1100px;
     height: 600px
 }
 
-.test_fill_box{
-    margin-top: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background: whitesmoke;
-    width: 1150px;
-    height: 600px
-}
-
-.main_link{
+.display_vis{
     margin-top: 10px;
-    margin-left: 115px;
-    background: paleturquoise;
-    height: 60px;
-    width: 100px;
+    margin-left: 15px;
+    height: 600px;
+    width: 600px;
 }
 
 .comp_link{
