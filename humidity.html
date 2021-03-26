@@ -46,44 +46,31 @@
     <!--Visualization and Analysis-->
     <div class="container">
         
-      <div class="row title">
-          <div class="col-md-6">
-              <p>Latitude vs Humidity</p>
+      <div class="row vis_box">
+          <div class="col-md-7">
+              <p class="title">Latitude vs Humidity</p>
+              <img class="display_vis" src="Resources/total_humidity.png" alt="Latitude vs Humidity">
           </div>
+
+          <div class="row analysis">
+            <p>In analyzing the City Humidity vs Latitude graph, while we can see there is a cluster of high humidity cities between 60 and 80 degrees latitude, there is no obvious relationship between latitude and humidity otherwise. Humidity looks to generally stay above 60% with little striking increase or decrease as latitude changes. This allows us to infer that latitude is not a good indicator or predicter of humidity.</p>
+          </div>
+
       </div>
 
-      <div class="row">
-        <div class="col-md-12 display_vis">
-            <img src="Resources/total_humidity.png" alt="Latitude vs Humidity">
-        </div>
-      </div>
-
-      <div class="row analysis">
-        <p>In analyzing the City Humidity vs Latitude graph, while we can see there is a cluster of high humidity cities between 60 and 80 degrees latitude, there is no obvious relationship between latitude and humidity otherwise. Humidity looks to generally stay above 60% with little striking increase or decrease as latitude changes. This allows us to infer that latitude is not a good indicator or predicter of humidity.</p>
-      </div>
+      
     
-      <div class="row">
-
-        <div clas="col-md-3">
-          <a href="temp.html">Latitude</a>
-          <img src="Resources/total_temp.png" class="img-thumbnail" alt="Latitude">
+      <div class="row width: 900px">
+        <div class="col-md-9 bottom_nav">
+          <h5 class="card-title title">Visualizations</h5>
+          <p class="card-text">Click an image to view each graph.</p>
+        
+        <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+        <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
+    
+        <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+        <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
         </div>
-
-        <div class="col-md-3">
-          <a href="humidity.html">Humidity</a>
-          <img src="/Resources/total_humidity.png" class="img-thumbnail" alt="Humidity">
-        </div>
-
-        <div class="col-md-3">
-          <a href="cloudiness.html">Cloudiness</a>
-          <img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness">
-        </div>
-
-        <div clas="col-md-3">
-          <a href="wind_speed.html">Wind Speed</a>
-          <img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed">
-        </div>
-
       </div>
 
     </div>

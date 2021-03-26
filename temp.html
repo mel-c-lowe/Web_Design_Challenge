@@ -43,46 +43,29 @@
 <!--Visualization and Analysis-->
     <div class="container">
         
-      <div class="row title">
-          <div class="col-md-6">
-              <p>City Temperature by Latitude</p>
+      <div class="row vis_box">
+          <div class="col-md-7">
+              <p class="title">City Temperature by Latitude</p>
+              <img class="display_vis" src="Resources/total_temp.png" alt="City Temp by Latitude">
+          </div>
+          <div class="row analysis">
+            <p>The graph above shows the relationship between global latitude positon and temperature in each of the cities in the dataset. We can see through the shape of the data that city temperatures rise as latitude approaches 0 from -60 degrees latitude, but appear to decrease more steeply as they increase from 0. Temperatures at 60 degrees latitude appear much lower than at -60 degrees latitude, indicating there there is more at play than simply latitude or distance from the equator. This makes sense when taking into account the tilt of the Earth's axis. The lower temperatures at latitudes further north also make sense given the quantity of land closer to the Arctic Circle and the current winter season in the northern hemisphere.</p>
           </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-12 display_vis">
-            <img src="Resources/total_temp.png" alt="City Temp by Latitude">
-        </div>
-      </div>
     
-      <div class="row analysis">
-        <p>The graph above shows the relationship between global latitude positon and temperature in each of the cities in the dataset. We can see through the shape of the data that city temperatures rise as latitude approaches 0 from -60 degrees latitude, but appear to decrease more steeply as they increase from 0. Temperatures at 60 degrees latitude appear much lower than at -60 degrees latitude, indicating there there is more at play than simply latitude or distance from the equator. This makes sense when taking into account the tilt of the Earth's axis. The lower temperatures at latitudes further north also make sense given the quantity of land closer to the Arctic Circle and the current winter season in the northern hemisphere.</p>
+      <div class="row width: 900px">
+        <div class="col-md-9 bottom_nav">
+          <h5 class="card-title title">Visualizations</h5>
+          <p class="card-text">Click an image to view each graph.</p>
+        
+        <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+        <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
+    
+        <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+        <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
+      </div>
       </div>
 
-
-      <div class="row">
-
-        <div clas="col-md-3">
-          <a href="temp.html">Latitude</a>
-          <img src="Resources/total_temp.png" class="img-thumbnail" alt="Latitude">
-        </div>
-
-        <div class="col-md-3">
-          <a href="humidity.html">Humidity</a>
-          <img src="/Resources/total_humidity.png" class="img-thumbnail" alt="Humidity">
-        </div>
-
-        <div class="col-md-3">
-          <a href="cloudiness.html">Cloudiness</a>
-          <img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness">
-        </div>
-
-        <div clas="col-md-3">
-          <a href="wind_speed.html">Wind Speed</a>
-          <img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed">
-        </div>
-
-      </div>
 
     </div>
 

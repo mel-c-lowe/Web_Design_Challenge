@@ -30,16 +30,15 @@
     margin-bottom: 50px;
 }
 
-.fill_box{
+.vis_box{
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 10px;
     background: whitesmoke;
-    width: 800px;
-    height: 600px
+    width: 900px;
+    height: 1000px
 }
 
-.fill_boxT{
+.landing_box{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 20px;
@@ -50,14 +49,19 @@
 
 .display_vis{
     margin-top: 10px;
-    margin-left: 15px;
     height: 600px;
-    width: 600px;
+    width: 800px;
+}
+
+.resize{
+    width: 50%;
+    height: 50%;
 }
 
 .analysis{
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 850px;
 }
 
 .card_left{
@@ -70,4 +74,18 @@
     background: whitesmoke;
     width: 400px;
     text-align: center;
+}
+
+.data_box{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+    background: whitesmoke;
+    width: 950px;
+}
+
+.bottom_nav{
+    background: whitesmoke;
+    margin-top: 20px;
+    border-radius: 1%;
 }

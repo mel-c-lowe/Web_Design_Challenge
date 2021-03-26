@@ -43,22 +43,36 @@
 </nav>
 
 
-    <div class="row fill_box">
-        <div class="col-md-6 title">
-            <h1>Weather Analysis</h1>
+<div class="container">
+  <div class="row">
+      <div class="col-md-6 landing_box">
+
+          <div class="row title">
+              <h1>Weather Analysis</h1>
+          </div>
+          
+          <div class="row paragraph">
+              <p>The purpose of this project was to analyze weather changes in conjunction with latitude across the globe.  To gather data, we used the OpenWeatherMap API to collect data from approximately 500 cities.</p>
+              <p>After the dataset was assembled and cleaned, we used MatPlotlib to plot various aspects of the data collected, such as temperature, humidity, cloudiness, and wind speed, all compared to the latitude of the given city. This site provides the visualizations generated through that analysis with notes regarding trends, or lack thereof, in the data.</p>
+          </div>
+      </div>
+
+      <div class="card card_right">
+          <div class="card-body">
+            <h5 class="card-title title">Visualizations</h5>
+            <p class="card-text">Click an image to view each graph.</p>
+          </div>
+          <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+          <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
+          <br>
+          <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+          <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
         </div>
-        <div class="row paragraph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.\
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>After assembling the dataset, we use Matplotlib.\
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <p>Where does this land?</p>
-        </div>
-    </div>
+      </div>
+
+      
+  </div>
+</div>
   
 
 
