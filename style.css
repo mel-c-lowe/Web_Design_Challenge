@@ -35,7 +35,7 @@
     margin-right: 10px;
     background: whitesmoke;
     width: 80%;
-    height: 1000px
+    height: 100%
 }
 
 .landing_box{
@@ -47,10 +47,18 @@
     height: 10%
 }
 
+.landing_vis{
+    height: 200px;
+    width: 400pxpx;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .display_vis{
     margin-top: 10px;
-    height: 600px;
-    width: 800px;
+    height: 100px;
+    width: 100px
 }
 
 .resize{
@@ -61,7 +69,8 @@
 .analysis{
     margin-left: 50px;
     margin-right: 20px;
-    width: 850px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .card_left{
