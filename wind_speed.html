@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Fourth</title>
+    <title>Wind Speed</title>
     
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -46,44 +46,27 @@
         <!--Visualization and Analysis-->
         <div class="container">
         
-          <div class="row title">
-              <div class="col-md-6">
-                  <p>Latitude vs Wind Speed</p>
+          <div class="row vis_box">
+              <div class="col-md-7">
+                  <p class="title">Latitude vs Wind Speed</p>
+                  <img class="display_vis" src="Resources/total_wind.png" alt="Latitude vs Wind Speed">
+              </div>
+              <div class="row analysis">
+                <p>The scatterplot City Wind Speed by Latitude looks like a relatively equal distribution of speeds below 20 mph across all latitutes, indicating that latitude is not a good predictor of wind speed in a given city.</p>
               </div>
           </div>
-    
-          <div class="row">
-            <div class="col-md-12 display_vis">
-                <img src="Resources/total_wind.png" alt="Latitude vs Wind Speed">
-            </div>
-          </div>
+  
+          <div class="row width: 900px">
+            <div class="col-md-9 bottom_nav">
+              <h5 class="card-title title">Visualizations</h5>
+              <p class="card-text">Click an image to view each graph.</p>
+            
+            <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+            <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
         
-          <div class="row analysis">
-            <p>The scatterplot City Wind Speed by Latitude looks like a relatively equal distribution of speeds below 20 mph across all latitutes, indicating that latitude is not a good predictor of wind speed in a given city.</p>
-          </div>
-        
-          <div class="row">
-    
-            <div clas="col-md-3">
-              <a href="temp.html">Latitude</a>
-              <img src="Resources/total_temp.png" class="img-thumbnail" alt="Latitude">
+            <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+            <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
             </div>
-    
-            <div class="col-md-3">
-              <a href="humidity.html">Humidity</a>
-              <img src="/Resources/total_humidity.png" class="img-thumbnail" alt="Humidity">
-            </div>
-    
-            <div class="col-md-3">
-              <a href="cloudiness.html">Cloudiness</a>
-              <img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness">
-            </div>
-    
-            <div clas="col-md-3">
-              <a href="wind_speed.html">Wind Speed</a>
-              <img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed">
-            </div>
-    
           </div>
     
         </div>

@@ -47,45 +47,34 @@
         <!--Visualization and Analysis-->
         <div class="container">
         
-          <div class="row title">
-              <div class="col-md-6">
-                  <p>Latitude vs Cloudiness</p>
+          <div class="row vis_box">
+              <div class="col-md-7">
+                  <p class="title">Latitude vs Cloudiness</p>
+                  <img class="display_vis" src="Resources/total_cloudiness.png" alt="Latitude vs Cloudiness">
+              </div>
+              <div class="row analysis">
+                <p>This is an interesting one, as it shows that there is a clustering of cities with either total cloud cover, or no cloud cover at all, but it appears equally weighted across latitude. Once again, it does not appear that there is any strong relationship between latitude and cloudiness. Rather, one might want to infer that it is more likely that a city will have either a cloud-free day or a very cloudy day, but the density of the cities clustered at 0 and 100% cloudiness distract from the number of cities that are distributed relatively equally between those extremes. There do appear to be other clusters at 20%, 40%, and 75% cloud cover, but again, these clusters cross all latitutes.</p>  
               </div>
           </div>
-    
-          <div class="row">
-            <div class="col-md-12 display_vis">
-                <img src="Resources/total_cloudiness.png" alt="Latitude vs Cloudiness">
-            </div>
-          </div>
         
-          <div class="row analysis">
-            <p>This is an interesting one, as it shows that there is a clustering of cities with either total cloud cover, or no cloud cover at all, but it appears equally weighted across latitude. Once again, it does not appear that there is any strong relationship between latitude and cloudiness. Rather, one might want to infer that it is more likely that a city will have either a cloud-free day or a very cloudy day, but the density of the cities clustered at 0 and 100% cloudiness distract from the number of cities that are distributed relatively equally between those extremes. There do appear to be other clusters at 20%, 40%, and 75% cloud cover, but again, these clusters cross all latitutes.</p>  
-          </div>
+         
         
-          <div class="row">
+        
     
-            <div clas="col-md-3">
-              <a href="temp.html">Latitude</a>
-              <img src="Resources/total_temp.png" class="img-thumbnail" alt="Latitude">
+            <div class="row width: 900px">
+              <div class="col-md-9 bottom_nav">
+                <h5 class="card-title title">Visualizations</h5>
+                <p class="card-text">Click an image to view each graph.</p>
+              
+              <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+              <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
+          
+              <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+              <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
+              </div>
             </div>
     
-            <div class="col-md-3">
-              <a href="humidity.html">Humidity</a>
-              <img src="/Resources/total_humidity.png" class="img-thumbnail" alt="Humidity">
-            </div>
-    
-            <div class="col-md-3">
-              <a href="cloudiness.html">Cloudiness</a>
-              <img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness">
-            </div>
-    
-            <div clas="col-md-3">
-              <a href="wind_speed.html">Wind Speed</a>
-              <img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed">
-            </div>
-    
-          </div>
+          
     
         </div>
 
