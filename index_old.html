@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Weather Analysis</title>
+    <title>Weather Analysis by Cities and Latitude</title>
     
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,53 +13,87 @@
 
 </head>
 
-<body style="background-color: lightgray"> 
+<body style="background-color: lightgray">
 
-    <!-- Set up row for title on landing page-->
-    <div class="container main_lat_box">
-
-        <!--Summary Landing Page Header-->
-        <div class="row">
-            <div class="col-md-10 title_box">
-                <h1>Summary Latitude</h1>
+    <!--Trying Bootstrap navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Comparisons
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="temp.html">Temp</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="comparison.html">All Visualizations</a>
             </div>
+            </li>
+        </ul>
         </div>
+    </nav>
 
-        <!--Placeholder for image-->
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 image_box">
-                <img src="placeholder" alt="A Plot Goes Here">
+            <div class="col-md-6 fill_boxT">
+
+                <div class="row title">
+                    <h1>Weather Analysis</h1>
+                </div>
+                
+                <div class="row paragraph">
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.\
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>After assembling the dataset, we use Matplotlib.\
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </div>
 
-            <!--Testing a nav bar-->
-            <div class="col-md-3 sidenav">
-                <a href="first.html">First</a><br>
-                <a href="second.html">Second</a><br>
-                <a href="third.html">Third</a><br>
-                <a href="fourth.html">Fourth</a><br>
-                <a href="comparison.html">Comparison</a>
-                <a href="data.html">Data</a>
+            <div class="card card_right">
+                <div class="card-body">
+                  <h5 class="card-title title">Visualizations</h5>
+                  <p class="card-text">Click an image to view each graph.</p>
+                </div>
+                <span><a href="temp.html"><img src="Resources/total_temp.png" class="img-thumbnail" alt="Temperature"></a>
+                <a href="humidity.html"><img src="Resources/total_humidity.png" class="img-thumbnail" alt="Humidity"></a></span>
+                <br>
+                <span><a href="cloudiness.html"><img src="Resources/total_cloudiness.png" class="img-thumbnail" alt="Cloudiness"></a>
+                <a href="wind_speed.html"><img src="Resources/total_wind.png" class="img-thumbnail" alt="Wind Speed"></a></span>
+              </div>
             </div>
 
-            <div class="col-md-9">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.</p>
-                <p>After assembling the dataset, we use Matplotlib.</p>
-            </div>
+            
         </div>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
+<!--JUST HOLDING HERE
+    <div class="row fill_box">
+        <div class="col-md-6 title">
+            <h1>Weather Analysis</h1>
+        </div>
+        <div class="row paragraph">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.\
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>After assembling the dataset, we use Matplotlib.\
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>Where does this land?</p>
+        </div>
+    </div>
+  -->
 
 
 
