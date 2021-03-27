@@ -57,8 +57,9 @@
 
 .display_vis{
     margin-top: 10px;
-    height: 100px;
-    width: 100px
+    margin-left: 50px;
+    height: 80%;
+    width: 100%
 }
 
 .resize{
@@ -69,7 +70,8 @@
 .analysis{
     margin-left: 50px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 8%;
+    margin-bottom: 2%;
     width: 100%;
 }
 
@@ -97,4 +99,9 @@
     background: whitesmoke;
     margin-top: 20px;
     border-radius: 1%;
+}
+
+#collapsed{
+    width: 10%;
+    height: 10%;
 }
