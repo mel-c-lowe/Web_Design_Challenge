@@ -23,7 +23,7 @@ Tools Used:
     * A navigation bar at the top of the page.
     * A dropdown menu with links to each visualization.
     
-* This website is deployed via GitHub pages and can be found here (add link).
+* This website is deployed via GitHub pages and can be found [here](https://mel-c-lowe.github.io/mlowe_web_challenge.github.io/index.html).
 
 
 
